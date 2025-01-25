@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Faviconer-->
+		<!--Mina faviconer-->
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+
+    <!--Google font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js" type="module"></script> 
+    <!-- <script src="js/main.js" type="module"></script>  -->
+    
+  
     <title>Demowebbplats för Yasmine Parisi</title>
+    <script src="https://kit.fontawesome.com/a4237efc0a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
+    <header class="navigation">
+        <div class="logo">
+            <a href="index.html" aria-label="Gå till startsidan">
+                <img src="images/logo.svg" alt="Logotyp" width="510" height="62">
+            </a>
+        </div>
+    
+        <!-- Hamburgermenyn -->
+        <button id="open-menu" aria-label="Öppna meny" class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    
+        <nav id="nav-menu">
+            <!-- Stäng-knapp -->
+            <button id="close-menu" aria-label="Stäng meny" class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul>
+                <li><a href="index.html" class="nav-link-active">Startsida</a></li>
+                <li><a href="html/sida2.html">Bilder</a></li>
+                <li><a href="html/sida3.html">Arbetsprocess</a></li>
+                <li><a href="html/sida4.html">Om mig</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Välkommen</h1>
+        <p>Här är en demo av en responsiv hamburgermeny!</p>
+    
+    
+        <h2>Välkommen</h2>
+        <p>Här är en demo av en responsiv hamburgermeny!</p>
+    
+    
+    
+    
+    </main>
+    
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <p>Yasmine Parisi, 2025 | Demowebbplats, Webbutvecklingsprogrammet Mittuniversitetet</p>
+        </div>
+    </footer>
 
 
 
 
-<main>
-<h1>Huvudrubrik, publicerad med parcel via Github/Render</h1>
-
-<p>Lite text kommer det att stå här...</p>
-<p>Blablablabla....</p>
-
-
-
-<h2>En underrubrik</h2>
-<p>Lite text kommer det att stå här också</p>
-<p>Blablablabla....</p>
-</main>
 
 
 
 
 
-
-
+    <script src="js/main.js"></script>
 
 </body>
 </html>
