@@ -56,75 +56,88 @@
 
         <div class="photo-album">
             <picture>
-                <!-- Bild för stora skärmar -->
-                <source srcset="../images/grabbar.jpg?as=webp&width=400" media="(min-width: 1024px)" type="image/webp">
-                <source srcset="../images/grabbar.jpg?width=400" media="(min-width: 1024px)">
-                
-                <!-- Bild för små skärmar -->
-                <source srcset="../images/grabbar.jpg?as=webp&width=300" media="(max-width: 1023px)" type="image/webp">
-                <source srcset="../images/grabbar.jpg?width=300" media="(max-width: 1023px)">
-                
-                <!-- Fallback -->
-                <img src="../images/grabbar.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar">
-            </picture>
-
-            <picture>
-                <!-- Bild för stora skärmar -->
-                <source srcset="../images/spock3.jpg?as=webp&width=400" media="(min-width: 1024px)" type="image/webp">
-                <source srcset="../images/spock3.jpg?width=400" media="(min-width: 1024px)">
-                
-                <!-- Bild för små skärmar -->
-                <source srcset="../images/spock3.jpg?as=webp&width=300" media="(max-width: 1023px)" type="image/webp">
-                <source srcset="../images/spock3.jpg?width=300" media="(max-width: 1023px)">
-                
-                <!-- Fallback  -->
-                <img src="../images/spock3.jpg?width=400" alt="En svart katt">
-            </picture>
-
-
-            <picture>
-                <!-- Bild för stora skärmar -->
-                <source srcset="../images/paddi2.jpg?as=webp&width=400" media="(min-width: 1024px)" type="image/webp">
-                <source srcset="../images/paddi2.jpg?width=400" media="(min-width: 1024px)">
-                
-                <!-- Bild för små skärmar -->
-                <source srcset="../images/paddi2.jpg?as=webp&width=300" media="(max-width: 1023px)" type="image/webp">
-                <source srcset="../images/paddi2.jpg?width=300" media="(max-width: 1023px)">
-                
-                <!-- Fallback  -->
-                <img src="../images/paddi2.jpg?width=400" alt="En sovande brun katt">
-            </picture>
-
-
-
-            <picture>
-                <!-- Bild för stora skärmar -->
-                <source srcset="../images/grabbar2.jpg?as=webp&width=400" media="(min-width: 1024px)" type="image/webp">
-                <source srcset="../images/grabbar2.jpg?width=400" media="(min-width: 1024px)">
-                
-                <!-- Bild för små skärmar -->
-                <source srcset="../images/grabbar2.jpg?as=webp&width=300" media="(max-width: 1023px)" type="image/webp">
-                <source srcset="../images/grabbar2.jpg?width=300" media="(max-width: 1023px)">
-                
-                <!-- Fallback  -->
-                <img src="../images/grabbar2.jpg?width=400" alt="En svart katt och en ljus katt ligger i en kattbädd">
-            </picture>
-
-
-            <picture>
-                <!-- Bild för stora skärmar -->
-                <source srcset="../images/paddi.jpg?as=webp&height=400" media="(min-width: 1024px)" type="image/webp">
-                <source srcset="../images/paddi.jpg?height=400" media="(min-width: 1024px)">
-                
-                <!-- Bild för små skärmar -->
-                <source srcset="../images/paddi.jpg?as=webp&height=300" media="(max-width: 1023px)" type="image/webp">
-                <source srcset="../images/paddi.jpg?height=300" media="(max-width: 1023px)">
+                <!-- Bild för desktop skärmar -->
+                <source srcset="../images/grabbar.jpg?as=webp&width=400" media="(min-width: 1025px)" type="image/webp">
+        
+                <!-- Bild för tablet skärmar -->
+                <source srcset="../images/grabbar.jpg?as=webp&width=300" media="(min-width: 600px) and (max-width: 1024px)" type="image/webp">
+ 
+                   <!-- Bild för mobil skärmar -->
+                   <source srcset="../images/grabbar.jpg?as=webp&width=200" media="(max-width: 599px)" type="image/webp">
                 
                 <!-- Fallback -->
-                <img src="../images/paddi.jpg?height=400" alt="En brun katt ligger på en pall">
+                <img src="../images/grabbar.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar" loading="lazy">
             </picture>
 
 
+            <picture>
+                <!-- Bild för desktop skärmar -->
+                <source srcset="../images/grabbar2.jpg?as=webp&width=400" media="(min-width: 1025px)" type="image/webp">
+        
+                
+                <!-- Bild för tablet skärmar -->
+                <source srcset="../images/grabbar2.jpg?as=webp&width=300" media="(min-width: 600px) and (max-width: 1024px)" type="image/webp">
+ 
+                   <!-- Bild för mobil skärmar -->
+                   <source srcset="../images/grabbar2.jpg?as=webp&width=200" media="(max-width: 599px)" type="image/webp">
+                
+                <!-- Fallback -->
+                <img src="../images/grabbar2.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar" loading="lazy">
+            </picture>
+
+
+            <picture>
+                <!-- Bild för desktop skärmar -->
+                <source srcset="../images/paddi.jpg?as=webp&width=400" media="(min-width: 1025px)" type="image/webp">
+        
+                
+                <!-- Bild för tablet skärmar -->
+                <source srcset="../images/paddi.jpg?as=webp&width=300" media="(min-width: 600px) and (max-width: 1024px)" type="image/webp">
+ 
+                   <!-- Bild för mobil skärmar -->
+                   <source srcset="../images/paddi.jpg?as=webp&width=200" media="(max-width: 599px)" type="image/webp">
+                
+                <!-- Fallback -->
+                <img src="../images/paddi.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar" loading="lazy">
+            </picture>
+
+
+
+
+            <picture>
+                <!-- Bild för desktop skärmar -->
+                <source srcset="../images/paddi2.jpg?as=webp&width=400" media="(min-width: 1025px)" type="image/webp">
+        
+                
+                <!-- Bild för tablet skärmar -->
+                <source srcset="../images/paddi2.jpg?as=webp&width=300" media="(min-width: 600px) and (max-width: 1024px)" type="image/webp">
+ 
+                   <!-- Bild för mobil skärmar -->
+                   <source srcset="../images/paddi2.jpg?as=webp&width=200" media="(max-width: 599px)" type="image/webp">
+                
+                <!-- Fallback -->
+                <img src="../images/paddi2.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar" loading="lazy">
+            </picture>
+
+
+
+            <picture>
+                <!-- Bild för desktop skärmar -->
+                <source srcset="../images/spock3.jpg?as=webp&width=400" media="(min-width: 1025px)" type="image/webp">
+        
+                
+                <!-- Bild för tablet skärmar -->
+                <source srcset="../images/spock3.jpg?as=webp&width=300" media="(min-width: 600px) and (max-width: 1024px)" type="image/webp">
+ 
+                   <!-- Bild för mobil skärmar -->
+                   <source srcset="../images/spock3.jpg?as=webp&width=200" media="(max-width: 599px)" type="image/webp">
+                
+                <!-- Fallback -->
+                <img src="../images/spock3.jpg?width=400" alt="En svart katt och en ljus katt ligger i filtar" loading="lazy">
+            </picture>
+
+
+    
         </div>
 
 

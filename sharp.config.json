@@ -4,7 +4,11 @@
       "chromaSubsampling": "4:4:4"
     },
     "webp": {
-      "quality": 78,
-          "chromaSubsampling": "4:2:0"
-    } 
+      "quality": 80,
+      "chromaSubsampling": "4:2:0"
+    },
+    "png": {
+      "quality": 80,
+      "palette": true
+    }
   }
