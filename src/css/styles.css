@@ -47,6 +47,11 @@ p {
 }
 
 
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Header och navigation */
 .navigation {
@@ -70,8 +75,7 @@ p {
 
 
 nav {
-
-font-size: 1.4em;
+font-size: 1.4rem;
 }
 
 nav ul {
@@ -131,9 +135,8 @@ nav a {
 
 .photo-album {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem; 
-    padding: 1rem; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem; 
 }
 
 .photo-album picture {
@@ -146,9 +149,6 @@ nav a {
     height: 100%;
     object-fit: cover; 
 }
-
-
-
 
 
 
@@ -248,10 +248,9 @@ nav a {
 }
 
 .logo img{
-max-width: 100%;
-height: 90%;
+max-width: 300px;
+height: 50px;
 }
-
 
 }
 
