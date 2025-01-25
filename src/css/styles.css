@@ -133,13 +133,12 @@ nav a {
 /*Bilder på bildersidan*/
 
 .img-box img {
-    height: 300px; 
-    width: auto;   
-    object-fit: cover; 
-    display: block; 
-    margin: 0 auto; 
+    height: 200px; /* Fixerad höjd */
+    width: 300px;  /* Fixerad bredd */
+    object-fit: cover; /* Beskär bilden för att fylla utrymmet */
+    display: block; /* Tar bort onödiga mellanrum under bilder */
+    margin: 0 auto; /* Centrerar bilder om det behövs */
 }
-
 
 
 
