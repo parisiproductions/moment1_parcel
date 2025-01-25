@@ -132,12 +132,19 @@ nav a {
 
 /*Bilder på bildersidan*/
 
+.img-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
 .img-box img {
-    height: 200px; /* Fixerad höjd */
-    width: 300px;  /* Fixerad bredd */
-    object-fit: cover; /* Beskär bilden för att fylla utrymmet */
-    display: block; /* Tar bort onödiga mellanrum under bilder */
-    margin: 0 auto; /* Centrerar bilder om det behövs */
+    height: 200px; 
+    width: 300px; 
+    object-fit: cover;
+    display: block; 
 }
 
 
