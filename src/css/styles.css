@@ -70,7 +70,7 @@ li{
     gap: 2rem;
     align-items: center;
     background-color: #c0d8b5;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
     width: 100%;
 }
 
@@ -80,6 +80,7 @@ li{
     flex-direction: row; 
     gap: 2rem; 
     align-items: center; 
+    padding-top: 2rem;
 }
 
 
@@ -159,10 +160,11 @@ padding-bottom: 1rem;
 /*Bilder på bildersidan*/
 
 .photo-album {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(320px, 1fr));
-    gap: 1rem;
-    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 1rem; 
+    padding: 1rem;
 }
 
 .photo-album picture {
@@ -171,12 +173,12 @@ padding-bottom: 1rem;
 }
 
 .photo-album picture img {
-    width: 100%; 
     height: auto; 
     max-width: 100%; 
-    object-fit: cover; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.301); 
+} 
+
+
 
 
 .footer {
@@ -205,7 +207,6 @@ padding-bottom: 1rem;
 
 
 /* Media queries*/
-
 /* Skärmar mindre än eller lika med 1024px */
 @media (max-width: 1024px) {
     .hamburger-btn {
@@ -273,9 +274,7 @@ height: auto;
 }
 
 .photo-album {
-    grid-template-columns: 1fr; /* En kolumn med bilder vid små skärmar */
-    justify-items: center;
-
+  flex-direction: column;
 }
 
 .photo-album picture img {
@@ -283,7 +282,6 @@ height: auto;
     max-width: 100%; 
     height: auto; 
     object-fit: cover; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 }
 
