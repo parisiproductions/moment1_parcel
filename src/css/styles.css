@@ -272,6 +272,8 @@ height: auto;
 
 .photo-album {
     grid-template-columns: 1fr; /* En kolumn med bilder vid små skärmar */
+    justify-items: center;
+
 }
 
 .photo-album picture img {
