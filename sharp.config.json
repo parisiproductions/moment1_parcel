@@ -7,6 +7,10 @@
       "quality": 75,
       "chromaSubsampling": "4:2:0"
     },
+    "avif":{
+"quality": 78,
+"chromaSubsampling": "4:2:0"
+    },
     "png": {
       "quality": 80,
       "palette": true
