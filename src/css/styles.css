@@ -275,10 +275,11 @@ height: auto;
 }
 
 .photo-album picture img {
-    width: 100%; 
+    width: auto; 
+    max-width: 100%; 
     height: auto; 
     object-fit: cover; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 }
 
