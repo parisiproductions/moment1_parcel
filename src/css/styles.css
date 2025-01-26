@@ -81,6 +81,9 @@ li{
     padding-top: 2rem;
 }
 
+nav{
+    display: none;
+}
 
 nav ul {
     display: flex; 
