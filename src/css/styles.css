@@ -26,7 +26,8 @@ body{
 main {
 width: 100%;
 margin: 0 auto;
-padding: 2rem;
+padding: 1rem;
+padding-left: 3rem;
  flex: 1;
  background-color: #fff;
 color: #1d1c1c;
@@ -36,10 +37,13 @@ color: #1d1c1c;
 
 h1{
 font-size: clamp(1.5rem, 5vw, 2.5rem);
+padding-top: 1rem;
+padding-bottom: 1rem;
 }
 
 h2{
 font-size: clamp(1.2rem, 3.5vw, 2rem);   
+padding-bottom: 1rem;
 }
 
 p {
@@ -144,9 +148,6 @@ nav a {
 }
 
 
-.startsida-text h1, .startsida-text h2{
-padding-bottom: 1rem;
-}
 
 .startsida-text ul{
     padding-top: 1rem;
