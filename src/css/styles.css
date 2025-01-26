@@ -275,6 +275,8 @@ height: auto;
 
 .photo-album {
   flex-direction: column;
+  justify-content: center; 
+
 }
 
 .photo-album picture img {
