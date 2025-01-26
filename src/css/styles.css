@@ -274,7 +274,12 @@ height: auto;
     grid-template-columns: 1fr; /* En kolumn med bilder vid små skärmar */
 }
 
-
+.photo-album picture img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
 }
 
 
