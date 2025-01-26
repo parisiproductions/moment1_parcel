@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Google fonts Roboto-->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" as="style">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--Faviconer-->
+		<!--Mina faviconer-->
+		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.ico">
+
+ 
+    <link rel="stylesheet" href="../css/styles.css">
+   <script src="../js/app.js" type="module"></script>
+    <title>Demowebbplats för Yasmine Parisi</title>
+</head>
+<body>
+    
+    <header class="navigation">
+        <div class="logo">
+            <a href="../index.html" aria-label="Gå till startsidan">
+                <img src="../images/logo.svg" alt="Logotyp" width="510" height="62">
+            </a>
+        </div>
+    
+        <!-- Hamburgermenyn -->
+        <button id="open-menu" aria-label="Öppna meny" class="hamburger-btn">
+            <img src="../images/bars-solid.svg" alt="Öppna meny" width="32" height="32">
+        </button>
+    
+        <nav id="nav-menu">
+            <!-- Stäng-knapp -->
+            <button id="close-menu" aria-label="Stäng meny" class="close-btn">
+                <img src="../images/xmark-solid.svg" alt="Öppna meny" width="32" height="32">  
+            </button>
+            <ul>
+                <li><a href="../index.html">Startsida</a></li>
+                <li><a href="./sida2.html">Bilder</a></li>
+                <li><a href="./sida3.html" class="nav-link-active">Arbetsprocess</a></li>
+    
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+<div class="arbetsprocess-text">
+        <h1>Arbetsprocess</h1>
+
+        <h2>Automatisering med Parcel</h2>
+
+        <p>För att automatisera webbplatsen använder jag Parcel, ett så kallat npm-paket, ett verktyg för att hantera och optimera filer. Jag börjar med att initiera npm i projektmappen, vilket skapar en package.json-fil för att hantera npm-paket och skript. Därefter installerar jag Parcel och lägger till det som en devDependency.</p>
+        <p>Jag skriver sedan skript i package.json för att automatisera utvecklingen och bygget av projektet. Med kommandot "start" startas en lokal utvecklingsserver för att testa koden, och med "build" skapas en optimerad version av projektet i en dist-mapp. </p> 
+       <p>Under utvecklingen arbetar jag med källkod i src-mappen, och de genererade filerna i dist-mappen är optimerade html, css och JavaScript-filer färdiga för publicering. Jag gör en .gitignore-fil och skriver vilka filer som inte ska versionhanteras.</p> 
+
+       
+<h2>Versionshantering med GitHub</h2>
+
+<p>För versionshantering använder jag GitHub och skapar ett repository via Visual Studio Code. Jag använder en development-branch, för att testa ändringar innan de mergas till main-branch, som är kopplad till publicering.</p>
+
+
+<h2>Publicering med Render</h2>
+
+<p>Jag publicerar webbplatsen med Render, där jag har skapat två separata webbplatser. Den ena är kopplad till development-branch för testning, och den andra till main-branch för den slutgiltiga versionen. När jag är nöjd med ändringarna i development, mergas dessa till main, vilket automatiskt uppdaterar den publicerade webbplatsen.</p>
+
+<h2>Automatisering av bildoptimering</h2>
+<p>För att optimera bilder använder jag Parcel, som automatiskt ändrar storlek och konverterar bilder till moderna format som WebP. För mer kontroll använder jag även verktyget Sharp, där jag kan specificera bildkvalitet och inställningar för olika format i en konfigurationsfil. Jag testar optimeringsresultatet i <a href="https://webspeedtest.cloudinary.com/">Website Image Analysis Tool</a> och justerar tills bilderna uppnår hög kvalitet och små filstorlekar (betyg A-B). Jag gör även test i Lighthouse för att se hur snabbt bilderna laddas.</p>
+    
+
+<h2>Optimering av SVG-filer</h2>
+<p>Jag använder SVG-filer till min logotyp och till hamburgermenyn. SVG-filer optimeras med verktyget SVGO, som tar bort onödig metadata och whitespace, vilket gör filerna mindre och snabbare att ladda. Detta gör jag genom att köra SVGO via kommandotolken.</p>
+
+<h2>Bakåtkompatibilitet</h2>
+<p>För att säkerställa att webbplatsen fungerar i så många webbläsare som möjligt, inklusive äldre versioner, specificerar jag vilka webbläsare som ska stödjas i package.json. Jag anger att projektet ska fungera för populära och moderna webbläsare, men också vara bakåtkompatibelt för äldre versioner.</p>
+    </div> 
+
+
+
+    
+</main>
+    
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <p>Yasmine Parisi, 2025 | Demowebbplats, Webbutvecklingsprogrammet Mittuniversitetet</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
